@@ -16,19 +16,16 @@ public abstract class GenericLifeSystem : MonoBehaviour
 
 interface IDamage 
 {
-    public UnityEvent OnTakeDamage { get; protected set; }
     public void Damage(float damage);
 }
 
 interface IHeal
 {
-    public UnityEvent OnHeal { get; protected set; }
     public void Heal(float heal);
 }
 
 interface IDie : IDamage
 {
-    public UnityEvent OnDie { get; protected set; }
     public void Death();
 }
 
