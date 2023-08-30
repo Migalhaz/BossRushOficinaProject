@@ -5,11 +5,13 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     WeaponScriptableObject m_weaponScriptableObject;
+    [SerializeField] SpriteRenderer m_spriteRenderer;
     [SerializeField] Trigger.System2D.CircleTrigger2D m_circleTrigger;
     public void Init(WeaponScriptableObject weaponScriptableObject)
     {
         m_weaponScriptableObject = weaponScriptableObject;
         Invoke(nameof(KillBullet), weaponScriptableObject.m_BulletLifeTime);
+        m_spriteRenderer.sprite = weaponScriptableObject.m_BulletSprite;
     }
     private void Update()
     {
