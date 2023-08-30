@@ -9,6 +9,7 @@ public class Bullet : MonoBehaviour
     [SerializeField] Trigger.System2D.CircleTrigger2D m_circleTrigger;
     public void Init(WeaponScriptableObject weaponScriptableObject)
     {
+        m_spriteRenderer ??= GetComponent<SpriteRenderer>();
         m_weaponScriptableObject = weaponScriptableObject;
         Invoke(nameof(KillBullet), weaponScriptableObject.m_BulletLifeTime);
         m_spriteRenderer.sprite = weaponScriptableObject.m_BulletSprite;
