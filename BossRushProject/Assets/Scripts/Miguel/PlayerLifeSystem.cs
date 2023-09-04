@@ -7,9 +7,20 @@ public class PlayerLifeSystem : GenericLifeSystem, IDamage
 {
     [SerializeField] UnityEvent OnDie;
     [SerializeField] UnityEvent OnTakeDamage;
+    [SerializeField] Shield m_playerShield;
+
+    private void Awake()
+    {
+        m_playerShield ??= GetComponent<Shield>();
+    }
 
     public void Damage(float damage)
     {
+        if (m_playerShield.m_Active)
+        {
+            m_playerShield.SetShieldActive(false);
+            return;
+        }
         OnHpChange?.Invoke();
         m_currentHp -= damage;
         OnTakeDamage?.Invoke();

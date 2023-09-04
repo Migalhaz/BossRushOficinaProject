@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4188066206188453452}
   - component: {fileID: 4188066206188453453}
-  - component: {fileID: 4188066206188453454}
+  - component: {fileID: 5341519084699240339}
   m_Layer: 0
   m_Name: PlayerBullet
   m_TagString: Untagged
@@ -85,7 +85,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4188066206188453454
+--- !u!114 &5341519084699240339
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -94,7 +94,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4188066206188453455}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 526399c7a2030e5419d21066f7d7d835, type: 3}
+  m_Script: {fileID: 11500000, guid: c3f602bf916acc94eba350c3ca0a2d0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_spriteRenderer: {fileID: 4188066206188453453}
@@ -103,13 +103,13 @@ MonoBehaviour:
     m_triggerLayerMask:
       serializedVersion: 2
       m_Bits: 55
-    m_centerObject: {fileID: 4188066206188453452}
+    m_centerObject: {fileID: 0}
     m_triggerEvents:
       OnTriggerEnter:
         m_PersistentCalls:
           m_Calls:
-          - m_Target: {fileID: 4188066206188453454}
-            m_TargetAssemblyTypeName: Bullet, Assembly-CSharp
+          - m_Target: {fileID: 5341519084699240339}
+            m_TargetAssemblyTypeName: GenericBullet, Assembly-CSharp
             m_MethodName: KillBullet
             m_Mode: 1
             m_Arguments:
@@ -123,8 +123,8 @@ MonoBehaviour:
       OnTriggerStayInside:
         m_PersistentCalls:
           m_Calls:
-          - m_Target: {fileID: 4188066206188453454}
-            m_TargetAssemblyTypeName: Bullet, Assembly-CSharp
+          - m_Target: {fileID: 5341519084699240339}
+            m_TargetAssemblyTypeName: GenericBullet, Assembly-CSharp
             m_MethodName: KillBullet
             m_Mode: 1
             m_Arguments:

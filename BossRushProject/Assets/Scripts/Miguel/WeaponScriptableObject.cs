@@ -11,7 +11,7 @@ public class WeaponScriptableObject : ScriptableObject
     [SerializeField, Min(1)] float m_bulletLifeTime = 5f;
     [SerializeField] Sprite m_bulletSprite;
 
-    [SerializeField] Bullet m_bulletPrefab;
+    [SerializeField] GenericBullet m_bulletPrefab;
 
     [Header("Weapon Settings")]
     [SerializeField, Range(0, 1)] float m_fireRate;
@@ -31,7 +31,7 @@ public class WeaponScriptableObject : ScriptableObject
 
     public void Shoot(Transform firePoint, Quaternion rotation)
     {
-        Bullet newBullet = Instantiate(m_bulletPrefab, firePoint.position, rotation);
+        GenericBullet newBullet = Instantiate(m_bulletPrefab, firePoint.position, rotation);
         newBullet.Init(this);
     }
 }
