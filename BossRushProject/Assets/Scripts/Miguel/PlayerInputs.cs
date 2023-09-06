@@ -12,6 +12,7 @@ public class PlayerInputs : MonoBehaviour
     [Header("Input Actions")]
     [SerializeField] InputAction m_rollInput = new(InputType.GetKeyDown, KeyCode.Space);
     [SerializeField] MouseInputAction m_shootInput = new(InputType.GetKey, 0);
+    [SerializeField] MouseInputAction m_tpShootInput = new(InputType.GetKey, 1);
 
     [Header("Vectors")]
     Vector2 m_moveDir;
@@ -30,6 +31,7 @@ public class PlayerInputs : MonoBehaviour
         SetMoveDir();
         m_rollInput.Action();
         m_shootInput.Action();
+        m_tpShootInput.Action();
     }
 
     void SetMoveDir()

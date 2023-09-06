@@ -7,7 +7,7 @@ public class WeaponScriptableObject : ScriptableObject
 {
     [Header("Bullet Settings")]
     [SerializeField, Min(1)] float m_bulletSpeed = 10f;
-    [SerializeField, Min(1)] float m_bulletDamage = 1f;
+    [SerializeField, Min(0)] float m_bulletDamage = 1f;
     [SerializeField, Min(1)] float m_bulletLifeTime = 5f;
     [SerializeField] Sprite m_bulletSprite;
 
