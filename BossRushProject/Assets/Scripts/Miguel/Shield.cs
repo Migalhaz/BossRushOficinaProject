@@ -10,9 +10,13 @@ public class Shield : MonoBehaviour
     float m_currentTimer;
     public bool m_Active => m_active;
 
+    private void Awake()
+    {
+        EnableShield();
+    }
+
     void Update()
     {
-        m_shieldSpriteRenderer.enabled = m_active;
         ShieldReactiveLogic();
     }
 
@@ -40,6 +44,25 @@ public class Shield : MonoBehaviour
     public void SetShieldActive(bool value)
     {
         m_active = value;
+        m_shieldSpriteRenderer.enabled = value;
     }
 
+    [ContextMenu("Enable Shield")]
+    public void EnableShield()
+    {
+        SetupShield(true);
+    }
+
+    [ContextMenu("Disable Shield")]
+    public void DisableShield()
+    {
+        SetupShield(false);
+    }
+
+    void SetupShield(bool active)
+    {
+        SetShieldActive(active);
+        ShieldResetTimer();
+        enabled = active;
+    }
 }

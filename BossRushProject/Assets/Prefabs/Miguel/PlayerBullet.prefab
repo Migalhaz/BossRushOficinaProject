@@ -102,7 +102,7 @@ MonoBehaviour:
     m_triggerTag: New Trigger
     m_triggerLayerMask:
       serializedVersion: 2
-      m_Bits: 55
+      m_Bits: 2147483647
     m_centerObject: {fileID: 0}
     m_triggerEvents:
       OnTriggerEnter:
