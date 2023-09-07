@@ -130,6 +130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_spriteRenderer: {fileID: 5077724250553226501}
+  m_minDistanceToTp: 0.6
   m_tpPoint: {fileID: 6887674000368360463}
   m_trigger:
     m_triggerTag: New Trigger

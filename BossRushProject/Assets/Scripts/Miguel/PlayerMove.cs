@@ -9,9 +9,12 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] PlayerInputs m_playerInputs;
     [SerializeField] Rigidbody2D m_rig;
     [SerializeField, Min(0)] float m_moveSpeed;
-    [SerializeField, Min(0)] float m_dashTimer;
-    float m_currentDashTimer;
-    [SerializeField, Min(0)] float m_dashForce;
+    [SerializeField, Min(0)] float m_rollTimer;
+    [SerializeField, Min(0)] float m_rollDuration;
+    float m_currentRollTimer;
+    [SerializeField, Min(0)] float m_rollForce;
+    public bool m_Rolling { get; private set; }
+    public bool m_Moving => m_playerInputs.m_MoveDir.sqrMagnitude > 0;
 
     private void Start()
     {
@@ -35,20 +38,28 @@ public class PlayerMove : MonoBehaviour
 
     void ResetDashTimer()
     {
-        m_currentDashTimer = m_dashTimer;
+        m_currentRollTimer = m_rollTimer;
     }
 
     void DashTimer()
     {
-        m_currentDashTimer -= Time.deltaTime;
+        m_currentRollTimer -= Time.deltaTime;
     }
 
     public void Dash()
     {
         if (m_playerInputs.m_MoveDir.magnitude == 0) return;
-        if (m_currentDashTimer > 0) return;
+        if (m_currentRollTimer > 0) return;
+        StartCoroutine(RollDuration());
         ResetDashTimer();
-        m_rig.AddForce(m_playerInputs.m_MoveDir * m_dashForce, ForceMode2D.Impulse);
+        m_rig.AddForce(m_playerInputs.m_MoveDir * m_rollForce, ForceMode2D.Impulse);
+    }
+
+    IEnumerator RollDuration()
+    {
+        m_Rolling = true;
+        yield return MigalhaSystem.Extensions.MigalhazHelper.GetWaitForSeconds(m_rollDuration);
+        m_Rolling = false;
     }
 
     public bool Moving()

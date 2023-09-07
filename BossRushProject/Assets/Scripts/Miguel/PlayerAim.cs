@@ -24,7 +24,6 @@ public class PlayerAim : MonoBehaviour
     private void Awake()
     {
         m_currentWeaponFireRate = 0f;
-        
     }
 
     private void Update()
@@ -57,9 +56,14 @@ public class PlayerAim : MonoBehaviour
         ResetCurrentWeaponFireRate();
     }
 
-    void SetCurrentWeapon()
+    public void SetCurrentWeapon(WeaponScriptableObject newWeapon)
     {
+        m_currentWeapon = newWeapon;
+    }
 
+    public void SetTpWeapon(WeaponScriptableObject newWeapon)
+    {
+        m_tpWeapon = newWeapon;
     }
 
     void ResetCurrentWeaponFireRate()
@@ -81,6 +85,5 @@ public class PlayerAim : MonoBehaviour
             if (m_tpWeaponFireRate > 0) return false;
             return true;
         }
-
     }
 }

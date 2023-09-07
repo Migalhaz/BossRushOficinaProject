@@ -7,6 +7,7 @@ public class PlayerLifeSystem : GenericLifeSystem, IDamage
 {
     [SerializeField] UnityEvent OnDie;
     [SerializeField] UnityEvent OnTakeDamage;
+    [SerializeField] PlayerMove m_playerMove;
     [SerializeField] Shield m_playerShield;
 
     private void Awake()
@@ -16,7 +17,8 @@ public class PlayerLifeSystem : GenericLifeSystem, IDamage
 
     public void Damage(float damage)
     {
-        if (m_playerShield.m_Active)
+        if (PlayerRolling()) return;
+        if (ShieldActive())
         {
             m_playerShield.SetShieldActive(false);
             return;
@@ -29,6 +31,20 @@ public class PlayerLifeSystem : GenericLifeSystem, IDamage
         {
             OnHpMin?.Invoke();
             Death();
+        }
+
+        bool ShieldActive()
+        {
+            if (m_playerShield.enabled)
+            {
+                return m_playerShield.m_Active;
+            }
+            return false;
+        }
+
+        bool PlayerRolling()
+        {
+            return m_playerMove.m_Rolling;
         }
     }
 
