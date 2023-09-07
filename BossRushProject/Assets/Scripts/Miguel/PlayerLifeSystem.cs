@@ -9,6 +9,7 @@ public class PlayerLifeSystem : GenericLifeSystem, IDamage
     [SerializeField] UnityEvent OnTakeDamage;
     [SerializeField] PlayerMove m_playerMove;
     [SerializeField] Shield m_playerShield;
+    public float m_CurrentHp => m_currentHp;
 
     private void Awake()
     {
@@ -23,8 +24,8 @@ public class PlayerLifeSystem : GenericLifeSystem, IDamage
             m_playerShield.SetShieldActive(false);
             return;
         }
-        OnHpChange?.Invoke();
         m_currentHp -= damage;
+        OnHpChange?.Invoke();
         OnTakeDamage?.Invoke();
         
         if (m_currentHp <= m_hpRange.m_MinValue)

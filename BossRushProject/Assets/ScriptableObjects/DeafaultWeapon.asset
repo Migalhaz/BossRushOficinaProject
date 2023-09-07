@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4078e1608a430c245b0c745bdc27f1e2, type: 3}
-  m_Name: NewWeaponSettings
+  m_Name: DeafaultWeapon
   m_EditorClassIdentifier: 
-  m_bulletSpeed: 20
+  m_bulletSpeed: 10
   m_bulletDamage: 1
   m_bulletLifeTime: 5
   m_bulletSprite: {fileID: 21300000, guid: 594ba25d14f71af47a8953ba2568f8e4, type: 3}
   m_bulletPrefab: {fileID: 5341519084699240339, guid: 634fd240d55115d45bf2fab2c0db6808, type: 3}
-  m_fireRate: 0.4
+  m_fireRate: 0.2
