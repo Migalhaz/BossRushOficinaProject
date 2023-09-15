@@ -102,7 +102,7 @@ MonoBehaviour:
     m_triggerTag: New Trigger
     m_triggerLayerMask:
       serializedVersion: 2
-      m_Bits: 2147483647
+      m_Bits: 119
     m_centerObject: {fileID: 4188066206188453452}
     m_triggerEvents:
       OnTriggerEnter:
@@ -148,4 +148,4 @@ MonoBehaviour:
       inColor: {r: 0, g: 1, b: 0, a: 1}
       outColor: {r: 1, g: 0, b: 0, a: 1}
     m_triggerOffset: {x: 0, y: 0}
-    m_triggerRadius: 0.5
+    m_triggerRadius: 0.25

@@ -1,26 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Shield : MonoBehaviour
 {
+    [ContextMenuItem("Enable Shield", nameof(EnableShield))]
+    [ContextMenuItem("Disable Shield", nameof(DisableShield))]
     [SerializeField] bool m_active;
     [SerializeField] SpriteRenderer m_shieldSpriteRenderer;
     [SerializeField, Min(0)] float m_timeToActive;
     float m_currentTimer;
     public bool m_Active => m_active;
-
-    private void Awake()
-    {
-        EnableShield();
-    }
-
     void Update()
     {
-        ShieldReactiveLogic();
+        ShieldReactivateLogic();
     }
 
-    void ShieldReactiveLogic()
+    void ShieldReactivateLogic()
     {
         if (m_active) return;
         if (ShieldTimerDecrease())
@@ -47,6 +44,14 @@ public class Shield : MonoBehaviour
         m_shieldSpriteRenderer.enabled = value;
     }
 
+    void SetupShield(bool active)
+    {
+        SetShieldActive(active);
+        ShieldResetTimer();
+        enabled = active;
+    }
+
+
     [ContextMenu("Enable Shield")]
     public void EnableShield()
     {
@@ -57,12 +62,5 @@ public class Shield : MonoBehaviour
     public void DisableShield()
     {
         SetupShield(false);
-    }
-
-    void SetupShield(bool active)
-    {
-        SetShieldActive(active);
-        ShieldResetTimer();
-        enabled = active;
     }
 }
