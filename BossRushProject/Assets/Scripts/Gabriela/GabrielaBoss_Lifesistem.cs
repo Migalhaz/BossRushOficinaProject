@@ -2,14 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GabrielaBoss_Lifesistem : GenericLifeSystem, IDie
+public class GabrielaBoss_Lifesistem : MonoBehaviour, IDie
 {
     public Gabriela_Estados EstadosBoss;
     
     
+    public float VidaAtual;
+
+    private float VidaMaxima;
+    
+    // Start is called before the first frame update
     void Start()
     {
-        m_currentHp = m_hpRange.m_MaxValue;
+        VidaMaxima = VidaAtual;
     }
 
     // Update is called once per frame
@@ -20,15 +25,14 @@ public class GabrielaBoss_Lifesistem : GenericLifeSystem, IDie
 
     public void Damage(float damage)
     {
-        m_currentHp -= damage;
-        if(m_currentHp <= m_hpRange.m_MinValue)
-        {
-            Death();
-        }
-
-        if (m_currentHp <= m_hpRange.m_MaxValue * 0.5f )
+        VidaAtual -= damage;
+        if (VidaAtual <= VidaMaxima * 0.5f)
         {
             EstadosBoss.EstadoAtual = EstadosBossGabriela.vidaAcabando;
+        }
+        if (VidaAtual <= 0)
+        {
+            Death();
         }
     }
 
