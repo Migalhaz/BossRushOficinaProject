@@ -23,6 +23,7 @@ public class bossAttackRaphael : MonoBehaviour
     void Start()
     {
         playerTransform = PlayerManager.Instance.transform;
+        waveCooldownTimer = waveAttackCooldown;
     }
 
     // Update is called once per frame
@@ -41,7 +42,16 @@ public class bossAttackRaphael : MonoBehaviour
 
     void UpdateEstadoUm()
     {
-        Debug.Log("update no estado 2");
+        if (WaveCooldownTimer())
+        {
+            StartCoroutine(FirstStateAttack());
+            waveCooldownTimer = waveAttackCooldown;
+        }
+        bool WaveCooldownTimer()
+        {
+            waveCooldownTimer -= Time.deltaTime;
+            return waveCooldownTimer <= 0;
+        }
     }
     void UpdateEstadoDois()
     {
@@ -82,7 +92,6 @@ public class bossAttackRaphael : MonoBehaviour
             }
             yield return new WaitForSeconds(attackCooldown);
         }
-        
     }
 }
 public enum EstadosBossRaphael

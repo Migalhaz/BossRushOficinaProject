@@ -333,8 +333,8 @@ MonoBehaviour:
   timeForFirstAttack: 0.1
   shots: 13
   angleShotBreak: 30
-  attackCooldown: 2
-  waveAttackCooldown: 0
+  attackCooldown: 1
+  waveAttackCooldown: 10
   waveCounter: 3
 --- !u!114 &1495605120
 MonoBehaviour:
