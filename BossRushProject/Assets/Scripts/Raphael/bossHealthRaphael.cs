@@ -6,22 +6,24 @@ public class bossHealthRaphael : MonoBehaviour, IDie
 {
 
     public float health;
-
+    public bool canTakeDamage;
     public bossAttackRaphael attackBoss;
     private float maxHealth;
 
     public void Damage(float damage)
     {
         health -= damage;
-        if(health <= maxHealth * 0.5f)
+        if (canTakeDamage)
         {
-            attackBoss.estadoBoss = EstadosBossRaphael.Estado2;
+            if (health <= maxHealth * 0.5f)
+            {
+                attackBoss.estadoBoss = EstadosBossRaphael.Estado2;
+            }
+            if (health <= 0)
+            {
+                Death();
+            }
         }
-        if(health <= 0)
-        {
-            Death();
-        }
-
     }
 
     public void Death()

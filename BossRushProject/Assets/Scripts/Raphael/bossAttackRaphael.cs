@@ -7,6 +7,8 @@ public class bossAttackRaphael : MonoBehaviour
     public EstadosBossRaphael estadoBoss;
     private Transform playerTransform;
     public Transform aim;
+    private bossHealthRaphael bossHealthRaphael;
+    public GameObject bullet;
 
     [Header("Configurações Estado 1")]
     public float timeForFirstAttack;
@@ -17,13 +19,18 @@ public class bossAttackRaphael : MonoBehaviour
     private float waveCooldownTimer;
     public int waveCounter;
 
-    //[Header("Configurações Estado 2")]
+    [Header("Configurações Estado 2")]
+    public float timerToAttack2State;
+    private float currentTimerToAttack;
 
 
     void Start()
     {
+        bossHealthRaphael = GetComponent<bossHealthRaphael>();
         playerTransform = PlayerManager.Instance.transform;
         waveCooldownTimer = waveAttackCooldown;
+        currentTimerToAttack = timerToAttack2State;
+        bossHealthRaphael.canTakeDamage = true;
     }
 
     // Update is called once per frame
@@ -55,8 +62,19 @@ public class bossAttackRaphael : MonoBehaviour
     }
     void UpdateEstadoDois()
     {
-        Debug.Log("update no estado 2");
+        bossHealthRaphael.canTakeDamage = true;
         LookToPlayer();
+        if (TimerToShoot())
+        {
+            Shoot();
+            currentTimerToAttack = timerToAttack2State;
+        }
+
+        bool TimerToShoot()
+        {
+            currentTimerToAttack -= Time.deltaTime;
+            return currentTimerToAttack <= 0;
+        }
     }
 
     void LookToPlayer()
@@ -68,11 +86,13 @@ public class bossAttackRaphael : MonoBehaviour
         aim.rotation = Quaternion.Euler(0f, 0f, angle);
     }
 
-    [ContextMenu("paulo")]
-    void Teste()
+    void Shoot()
     {
-        StartCoroutine(FirstStateAttack());
+        Transform firePoint = aim.GetChild(0);
+        Instantiate(bullet, firePoint.position, aim.rotation);
     }
+
+    
 
     IEnumerator FirstStateAttack()
     {
@@ -88,10 +108,12 @@ public class bossAttackRaphael : MonoBehaviour
             for (int j = 0; j < shots; j++)
             {
                 aim.rotation = Quaternion.Euler(0f, 0f, angleShotBreak * j * direction);
+                Shoot();
                 yield return new WaitForSeconds(timeForFirstAttack);
             }
             yield return new WaitForSeconds(attackCooldown);
         }
+        bossHealthRaphael.canTakeDamage = true;
     }
 }
 public enum EstadosBossRaphael
