@@ -18,7 +18,7 @@ public class bossAttackRaphael : MonoBehaviour
     public float waveAttackCooldown;
     private float waveCooldownTimer;
     public int waveCounter;
-
+    private bool attacking;
     [Header("Configurações Estado 2")]
     public float timerToAttack2State;
     private float currentTimerToAttack;
@@ -56,6 +56,9 @@ public class bossAttackRaphael : MonoBehaviour
         }
         bool WaveCooldownTimer()
         {
+            if(attacking == true){
+                return false;
+            }
             waveCooldownTimer -= Time.deltaTime;
             return waveCooldownTimer <= 0;
         }
@@ -96,6 +99,9 @@ public class bossAttackRaphael : MonoBehaviour
 
     IEnumerator FirstStateAttack()
     {
+        attacking = true;
+        float startAngle = Random.Range(0, 360);
+        bossHealthRaphael.canTakeDamage = false;
         for (int i = 0; i < waveCounter; i++)
         {
             int direction = 1;
@@ -107,13 +113,14 @@ public class bossAttackRaphael : MonoBehaviour
 
             for (int j = 0; j < shots; j++)
             {
-                aim.rotation = Quaternion.Euler(0f, 0f, angleShotBreak * j * direction);
+                aim.rotation = Quaternion.Euler(0f, 0f, angleShotBreak * j * direction + startAngle);
                 Shoot();
                 yield return new WaitForSeconds(timeForFirstAttack);
             }
             yield return new WaitForSeconds(attackCooldown);
         }
         bossHealthRaphael.canTakeDamage = true;
+        attacking = false;
     }
 }
 public enum EstadosBossRaphael

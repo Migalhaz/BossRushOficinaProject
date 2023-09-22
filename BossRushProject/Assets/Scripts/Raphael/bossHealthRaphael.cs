@@ -12,9 +12,10 @@ public class bossHealthRaphael : MonoBehaviour, IDie
 
     public void Damage(float damage)
     {
-        health -= damage;
+        
         if (canTakeDamage)
         {
+            health -= damage;
             if (health <= maxHealth * 0.5f)
             {
                 attackBoss.estadoBoss = EstadosBossRaphael.Estado2;
