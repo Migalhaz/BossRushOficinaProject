@@ -19,10 +19,12 @@ public class EstadoBossBruna : MonoBehaviour
 
     public float TempoDeTeleporte;
     private float TempoDeTeleporteAtual;
+    private Animator anim;
     void Start()
     {
         playerTransform = PlayerManager.Instance.transform;
         FirePoint = aim.GetChild(0);
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -65,6 +67,7 @@ public class EstadoBossBruna : MonoBehaviour
         {
             TempoDeTeleporteAtual = 0;
             Teleportar();
+            anim.SetInteger("Transition", 1 );
         }
         else
         {
