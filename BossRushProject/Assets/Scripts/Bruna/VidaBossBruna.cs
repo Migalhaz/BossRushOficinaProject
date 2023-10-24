@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class VidaBossBruna : MonoBehaviour, IDie
 {
     public float VidaAtual;
 
     private float VidaMaxima;
+    public Image BarradevidadoBoss;
 
     public EstadoBossBruna EstadoDoBoss;
     // Start is called before the first frame update
@@ -32,6 +34,8 @@ public class VidaBossBruna : MonoBehaviour, IDie
         {
             Death();
         }
+
+        BarradevidadoBoss.fillAmount = VidaAtual / VidaMaxima;
     }
 
     public void Death()
