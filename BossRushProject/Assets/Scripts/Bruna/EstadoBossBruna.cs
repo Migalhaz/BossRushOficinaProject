@@ -67,7 +67,7 @@ public class EstadoBossBruna : MonoBehaviour
         {
             TempoDeTeleporteAtual = 0;
             Teleportar();
-            anim.SetInteger("Transition", 1 );
+            anim.SetInteger("Transition", 1);   
         }
         else
         {
