@@ -1,0 +1,2610 @@
+fileFormatVersion: 2
+guid: a4093664f5590ae4ca15136c75e0c5d0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boss2_Gabriela_0
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 949
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19591f968f5d574d91aceac96f0cabf
+      internalID: 314316497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_1
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 949
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45968acbebdd7745a3ae9449acf77e6
+      internalID: 1391875098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_2
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 949
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6db1e195b88bf48bcebe8625c2d73a
+      internalID: -2070325091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_3
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 950
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846eac504e243094c8d18f9c557216a2
+      internalID: 1413278277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_4
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 949
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc57a0ec032af14e8949653bfe89604
+      internalID: 1123516925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_5
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 949
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762e2adf82f5a8e49895a68a8a654a70
+      internalID: 667983310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_6
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 949
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca34f41002528f45b515e52954e257e
+      internalID: 1383171567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_7
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 954
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce9a7415cd93c8478ee9ed236e47237
+      internalID: 1162596904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_8
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 949
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81872a428cb4a0e42b7f01e4a98db99e
+      internalID: -1952525824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_9
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 899
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b15eec6fbd3e1240b4fc0fad342dc6c
+      internalID: 730213554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_10
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 899
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb030c49bff60446a50a50886d482e9
+      internalID: 1397463115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_11
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 900
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfdff7871a983f4ebfed2e2ce088b39
+      internalID: -1565348447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_12
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 900
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3415a853e30d31948b5aea847cae6deb
+      internalID: -731696802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_13
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 899
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987aca478d34e72479631380c9f5ec73
+      internalID: -863796774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_14
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 899
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61c5ae9107cf2c4483500c73b32decf
+      internalID: -723224939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_15
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 899
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c46baeedfee2443b1a8aa52e348474
+      internalID: 749818966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_16
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 898
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5444ec2968c85db44b5c5f7d4f101b27
+      internalID: -1001924009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_17
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 900
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c327cdd8d5e1124b9e77e831a3afd29
+      internalID: 978978662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_18
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 850
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b33b33c41027342a45704500c5fdfb
+      internalID: -413719404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_19
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 847
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2feee5931f65558439a76a60345b6b41
+      internalID: 1725344831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_20
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 855
+        width: 58
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b173cb8fd9382b649927513934693b7b
+      internalID: 1778336548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_21
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 854
+        width: 58
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f59f129982e1348b6148315209c378
+      internalID: 1854444084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_22
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 854
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86232cfb2167ae4f81b4f4f9776dd46
+      internalID: 981345512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_23
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 853
+        width: 66
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a111af41eb242a042be486f97d6d093a
+      internalID: 542232609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_24
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 800
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2c002ecba7151468c9d490c4c734b0
+      internalID: -1132212899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_25
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 799
+        width: 55
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1a0c20dff7bd84da955b0278ef5d78
+      internalID: 508545684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_26
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 805
+        width: 68
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2195f6d5c8e08040b51e08c40b1d769
+      internalID: 1829964344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_27
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 804
+        width: 68
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac5fc1a581410248b1bd7950efe6d6d
+      internalID: 1746925057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_28
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 804
+        width: 76
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148347628c39447489c9fc133054eb0f
+      internalID: -304526074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_29
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 803
+        width: 76
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6fb101789d67b742913faef90e1e22c
+      internalID: -2039486326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_30
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 750
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cddf6f23aed6e8049b8a81e80689544d
+      internalID: 60767659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_31
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 749
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc2b9a8c8be17d40a369a0958218495
+      internalID: -1456535521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_32
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 750
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10baaf290bd3bc4fac2145492a758d3
+      internalID: 686599536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_33
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 750
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28abbbba5cdb3141803fd4a3f6d1b96
+      internalID: -2057763952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_34
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 749
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35832658c6dca7b47b83f6366417e0da
+      internalID: 1512610638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_35
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 727
+        width: 62
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3266813fbb7f9ad4bb57aa1f452e0c34
+      internalID: 68666079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_36
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 745
+        width: 80
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed5aaef2f2c5834d8b8c1627fac80ab
+      internalID: -1925804850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_37
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 700
+        width: 80
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0bcda8ef89525409272748c0ea3242
+      internalID: -1073496128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_38
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 704
+        width: 80
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f2864d401b67144ad6dc94e5b204e0
+      internalID: 2054159168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_39
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 704
+        width: 76
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda59e8a83ae7774ca61614231f58493
+      internalID: 235799230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_40
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 654
+        width: 59
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94f7b594f3cdc04c8f971d90d3a9bd9
+      internalID: -237608716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_41
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 654
+        width: 68
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f41a00b95c614444a8c672285477d2a
+      internalID: -143904411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_42
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 650
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1026f678008f0439cac3bba2373dd9
+      internalID: -158705635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_43
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 597
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f8573f9b1b14f459afbd7077bdd817
+      internalID: -2075984549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_44
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 597
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072c361cdc3855f4b9111f8ac7546cc2
+      internalID: -859979994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_45
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 596
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571544bfad684c643a41c20251eddfd7
+      internalID: -285376503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_46
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 596
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d224ab8abdade541bff685c38f5ade7
+      internalID: -231168581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_47
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 598
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa696762ae211d244b47b0faa7e9b416
+      internalID: 1877220407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_48
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 575
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8c10a9833d51849a8b74e4306d7b8e
+      internalID: -1739734824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_49
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 581
+        width: 72
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce340ba6fb7e53e4bb0b370c17e764a5
+      internalID: 834009821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_50
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 534
+        width: 72
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff69a0d08ad99b446b81a9186612a1f6
+      internalID: 899236851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_51
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 539
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a03e77daa0e88468e808071192cdff
+      internalID: -1201741747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_52
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 484
+        width: 68
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6c49a372f0d9e42a452b1020e6b656
+      internalID: 868952295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_53
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 484
+        width: 62
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ab5ab72136375488e64e0a9dec8714
+      internalID: -353301701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_54
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 484
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fcb74eed680043419e5364a27c09a65
+      internalID: 1747148178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_55
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 482
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063d45f2e49244f4d9960ae9c6e2b369
+      internalID: -177167325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_56
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 429
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99ead5b97273ca40a79b1847a011d38
+      internalID: -887518841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_57
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 430
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67257c05155e17d4ea0c54277d8f2809
+      internalID: -1750665922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_58
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 431
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8bf53f1da8ceb4cae96a87ab2262e0
+      internalID: -1441827875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_59
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 429
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3cce95ef46f33f4ea13754aacef319a
+      internalID: 579917104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_60
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 429
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e8b66c7516e35478b21cd6b622ed06
+      internalID: -2092306401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_61
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 428
+        width: 53
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71cd1cb86ef8864da897f0d46280884
+      internalID: 637420219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_62
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 432
+        width: 53
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be216e65a05b004493304d095b4b165
+      internalID: 358520329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_63
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 366
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2bf8b299b09e7c4a90611c6f2ec3364
+      internalID: 906273863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_64
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 366
+        width: 47
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406131ad08755a243b325724ca3b56a8
+      internalID: -2015371129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_65
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 366
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af6c23c0d185454d8eeeed1ce906b87
+      internalID: -282887287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_66
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 365
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98e2c37ba661e842a7dedb1e5772e09
+      internalID: -1812695700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_67
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 367
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6eb582e83a71ee4fb6ad8a0af877dba
+      internalID: -454075339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_68
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 366
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8b5a69e9f6a444d977edfbd03b9ba7
+      internalID: 527882460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_69
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 362
+        width: 45
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f998176795800ce4fa5b1df8ad5b23d1
+      internalID: 1643468115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_70
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 362
+        width: 54
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c8057e372b4754b8ba929d2498da53
+      internalID: -1831819702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_71
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 295
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6001b4d84b0d01746b9ac00be632b17c
+      internalID: 1559822426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_72
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 295
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52e790cefed98f4da248d76e619fed2
+      internalID: 832694643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_73
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 296
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b436c22cbf8c7744180dfb19b8cc9304
+      internalID: -8246934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_74
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 296
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0dcb862ba57964cadd1b57afb8017d
+      internalID: 1258855327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_75
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 295
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83dcc37f418c94c4c91d630a80bf1d0c
+      internalID: 1989622984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_76
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 288
+        width: 36
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa67bad6374db3d40a8220dc134a4a62
+      internalID: -529662424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_77
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 288
+        width: 34
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a29af7df25a804d9212cf694da976d
+      internalID: -439723784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_78
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 296
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266f3cc611cd94a488628b80f1c0fc46
+      internalID: -1011200732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_79
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 300
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b941ab6d79408e48ac9c001ba8c8ad0
+      internalID: -626671921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_80
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 225
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc45910e9409a04d9fd3063e0f92c6d
+      internalID: -169936561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_81
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 225
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522b75e49e7ef7440ba008208b77a2e5
+      internalID: -1080183872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_82
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 226
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782ae5bda92cf374e8c1ea684bcab7d8
+      internalID: 2101434067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_83
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 226
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c9191d6e9e0874991e1d1964711ed7
+      internalID: 323853890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_84
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 225
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dec0489a66cc534b9b8abe825c65432
+      internalID: -158438161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_85
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 219
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31206ceb150ece94fbad110f056163e4
+      internalID: -5871923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_86
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 218
+        width: 43
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1735b0f807942e047816d90fbe834f81
+      internalID: 1164364029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_87
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 226
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd042f74fc7a7a46a5b9268f815f604
+      internalID: 1461983315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_88
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 230
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce99017105ac9764e9a69587d0426d7c
+      internalID: 627374263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_89
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 158
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0897571ff85dc254db888cb52235fed9
+      internalID: -2080511548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_90
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 153
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a65075b6adcc34197b9a92464fbbc2
+      internalID: 476650111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_91
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 158
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5bf58de39333c4e92320ccc4747f72
+      internalID: -525341055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_92
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 158
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9eb417134a32d459243eb7a82e9781
+      internalID: 1754326003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_93
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 153
+        width: 26
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e36e8b767ef1f4fb6c87bd2ddd0ba3
+      internalID: 1009366747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_94
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 162
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2329569141425741967f78c03dafe75
+      internalID: -1591355029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_95
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 160
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5e15a88c7ceb748b05dd6460205ebf
+      internalID: -926358839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_96
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 153
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd6537e9055247439eba68b28d9b7af
+      internalID: -1175599731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_97
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 97
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e844412339058f44ba7e9aef8453d12
+      internalID: -1442080093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_98
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 97
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5c63664a0626c46a2b21000c0e5575
+      internalID: 236466584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_99
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 97
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f08b72c89294d498403ab8e678d25d
+      internalID: -1163939125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_100
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 97
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8af8fee470efeb4e9c746dc8aff9a19
+      internalID: -1801465528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_101
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 96
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29fb3d2697a48143add4c46ed00c8b9
+      internalID: -1486592140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_102
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 96
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e2532a69dd88f43a2d7298d80f1843
+      internalID: 1202509966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_103
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 96
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c38f2aa71a92145a269f9cadfe3bd9
+      internalID: -1969538413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_104
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 44
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b703ff580dd9b5641950b6560158435b
+      internalID: -2094192870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_105
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 40
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4108a2729ae1c9f4e8a74428d5757e24
+      internalID: 470346950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_106
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 43
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922a57f44095fb94d9d548efd35ed2eb
+      internalID: -607258243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_107
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 49
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2254d8c41e5483e46a91c3810c2b27d3
+      internalID: -1268498395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_108
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 45
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d86c49fe4e119044844ada2c01fd51f
+      internalID: -1788901694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_109
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 43
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b374f09a29aad14eb3ec33732241acd
+      internalID: 255993586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_110
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 51
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410e56b9281889440a5df6140a25c31e
+      internalID: -965814218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss2_Gabriela_111
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 42
+        width: 8
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5210d7ecc7e25bf45b6d39a65d45a052
+      internalID: -1393526007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      boss2_Gabriela_10: 1397463115
+      boss2_Gabriela_108: -1788901694
+      boss2_Gabriela_51: -1201741747
+      boss2_Gabriela_49: 834009821
+      boss2_Gabriela_28: -304526074
+      boss2_Gabriela_56: -887518841
+      boss2_Gabriela_35: 68666079
+      boss2_Gabriela_29: -2039486326
+      boss2_Gabriela_69: 1643468115
+      boss2_Gabriela_19: 1725344831
+      boss2_Gabriela_21: 1854444084
+      boss2_Gabriela_33: -2057763952
+      boss2_Gabriela_87: 1461983315
+      boss2_Gabriela_59: 579917104
+      boss2_Gabriela_82: 2101434067
+      boss2_Gabriela_101: -1486592140
+      boss2_Gabriela_37: -1073496128
+      boss2_Gabriela_48: -1739734824
+      boss2_Gabriela_34: 1512610638
+      boss2_Gabriela_68: 527882460
+      boss2_Gabriela_103: -1969538413
+      boss2_Gabriela_30: 60767659
+      boss2_Gabriela_71: 1559822426
+      boss2_Gabriela_81: -1080183872
+      boss2_Gabriela_23: 542232609
+      boss2_Gabriela_66: -1812695700
+      boss2_Gabriela_102: 1202509966
+      boss2_Gabriela_0: 314316497
+      boss2_Gabriela_18: -413719404
+      boss2_Gabriela_11: -1565348447
+      boss2_Gabriela_110: -965814218
+      boss2_Gabriela_98: 236466584
+      boss2_Gabriela_83: 323853890
+      boss2_Gabriela_5: 667983310
+      boss2_Gabriela_13: -863796774
+      boss2_Gabriela_7: 1162596904
+      boss2_Gabriela_14: -723224939
+      boss2_Gabriela_94: -1591355029
+      boss2_Gabriela_90: 476650111
+      boss2_Gabriela_79: -626671921
+      boss2_Gabriela_77: -439723784
+      boss2_Gabriela_22: 981345512
+      boss2_Gabriela_16: -1001924009
+      boss2_Gabriela_50: 899236851
+      boss2_Gabriela_20: 1778336548
+      boss2_Gabriela_91: -525341055
+      boss2_Gabriela_96: -1175599731
+      boss2_Gabriela_104: -2094192870
+      boss2_Gabriela_53: -353301701
+      boss2_Gabriela_107: -1268498395
+      boss2_Gabriela_92: 1754326003
+      boss2_Gabriela_45: -285376503
+      boss2_Gabriela_40: -237608716
+      boss2_Gabriela_65: -282887287
+      boss2_Gabriela_57: -1750665922
+      boss2_Gabriela_12: -731696802
+      boss2_Gabriela_75: 1989622984
+      boss2_Gabriela_8: -1952525824
+      boss2_Gabriela_78: -1011200732
+      boss2_Gabriela_44: -859979994
+      boss2_Gabriela_64: -2015371129
+      boss2_Gabriela_105: 470346950
+      boss2_Gabriela_9: 730213554
+      boss2_Gabriela_24: -1132212899
+      boss2_Gabriela_32: 686599536
+      boss2_Gabriela_62: 358520329
+      boss2_Gabriela_54: 1747148178
+      boss2_Gabriela_100: -1801465528
+      boss2_Gabriela_86: 1164364029
+      boss2_Gabriela_25: 508545684
+      boss2_Gabriela_36: -1925804850
+      boss2_Gabriela_43: -2075984549
+      boss2_Gabriela_95: -926358839
+      boss2_Gabriela_80: -169936561
+      boss2_Gabriela_4: 1123516925
+      boss2_Gabriela_72: 832694643
+      boss2_Gabriela_85: -5871923
+      boss2_Gabriela_52: 868952295
+      boss2_Gabriela_74: 1258855327
+      boss2_Gabriela_38: 2054159168
+      boss2_Gabriela_15: 749818966
+      boss2_Gabriela_97: -1442080093
+      boss2_Gabriela_47: 1877220407
+      boss2_Gabriela_6: 1383171567
+      boss2_Gabriela_70: -1831819702
+      boss2_Gabriela_1: 1391875098
+      boss2_Gabriela_76: -529662424
+      boss2_Gabriela_106: -607258243
+      boss2_Gabriela_58: -1441827875
+      boss2_Gabriela_2: -2070325091
+      boss2_Gabriela_73: -8246934
+      boss2_Gabriela_88: 627374263
+      boss2_Gabriela_27: 1746925057
+      boss2_Gabriela_42: -158705635
+      boss2_Gabriela_84: -158438161
+      boss2_Gabriela_39: 235799230
+      boss2_Gabriela_26: 1829964344
+      boss2_Gabriela_93: 1009366747
+      boss2_Gabriela_89: -2080511548
+      boss2_Gabriela_109: 255993586
+      boss2_Gabriela_3: 1413278277
+      boss2_Gabriela_61: 637420219
+      boss2_Gabriela_31: -1456535521
+      boss2_Gabriela_99: -1163939125
+      boss2_Gabriela_111: -1393526007
+      boss2_Gabriela_41: -143904411
+      boss2_Gabriela_67: -454075339
+      boss2_Gabriela_63: 906273863
+      boss2_Gabriela_46: -231168581
+      boss2_Gabriela_17: 978978662
+      boss2_Gabriela_60: -2092306401
+      boss2_Gabriela_55: -177167325
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
