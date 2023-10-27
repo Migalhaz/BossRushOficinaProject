@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class PlayerUIController : MonoBehaviour
 {
+    [SerializeField] bool m_activeUI = true;
     [SerializeField] PlayerLifeSystem m_playerLifeSystem;
     [SerializeField] List<RawImage> m_hearts;
 
@@ -21,7 +22,7 @@ public class PlayerUIController : MonoBehaviour
         {
             if (m_hearts is null) return false;
             if (m_hearts.Count <= 0) return false;
-            return true;
+            return m_activeUI;
         }
     }
 }
