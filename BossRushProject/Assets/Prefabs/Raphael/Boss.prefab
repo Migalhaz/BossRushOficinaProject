@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7648403868893161544}
   - component: {fileID: 7648403868893161547}
   - component: {fileID: 7648403868893161546}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Boss
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123,6 +123,7 @@ MonoBehaviour:
   estadoBoss: 0
   aim: {fileID: 7648403869884620358}
   bullet: {fileID: 7711944736837159049, guid: 0e6d579febfb99d498408ee1a873e214, type: 3}
+  anim: {fileID: 0}
   timeForFirstAttack: 0.1
   shots: 13
   angleShotBreak: 30
@@ -154,7 +155,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7648403869884620358}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: aim
   m_TagString: Untagged
   m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
@@ -186,7 +187,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7648403870046202519}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: fire point
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}

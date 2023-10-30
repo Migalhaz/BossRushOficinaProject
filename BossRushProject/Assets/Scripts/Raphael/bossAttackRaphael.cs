@@ -9,6 +9,8 @@ public class bossAttackRaphael : MonoBehaviour
     public Transform aim;
     private bossHealthRaphael bossHealthRaphael;
     public GameObject bullet;
+    public Animator anim;
+    
 
     [Header("Configurações Estado 1")]
     public float timeForFirstAttack;
@@ -31,6 +33,7 @@ public class bossAttackRaphael : MonoBehaviour
         waveCooldownTimer = waveAttackCooldown;
         currentTimerToAttack = timerToAttack2State;
         bossHealthRaphael.canTakeDamage = true;
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -93,6 +96,11 @@ public class bossAttackRaphael : MonoBehaviour
     {
         Transform firePoint = aim.GetChild(0);
         Instantiate(bullet, firePoint.position, aim.rotation);
+
+        if(firePoint.position.x == 0.1f)
+        {
+            anim.SetInteger("attackSide", 1);
+        }
     }
 
     
@@ -117,6 +125,8 @@ public class bossAttackRaphael : MonoBehaviour
                 Shoot();
                 yield return new WaitForSeconds(timeForFirstAttack);
             }
+
+            
             yield return new WaitForSeconds(attackCooldown);
         }
         bossHealthRaphael.canTakeDamage = true;
