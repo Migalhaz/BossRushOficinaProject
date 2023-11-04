@@ -8,7 +8,8 @@ public class EstadoBossBruna : MonoBehaviour
     public Transform aim;
     public EstadosBossBruna EstadoBoss;
     private Transform FirePoint;
-
+    
+    public AudioSource TiroDoBoss;
     public GameObject Tiro;
     [Header("Estado1")]
     public float TempoParaAtirar;
@@ -40,6 +41,7 @@ public class EstadoBossBruna : MonoBehaviour
 
     void MirarNoPlayer()
     {
+
         Vector3 DirecaoDoTiro =  playerTransform.position - transform.position;
 
         float AnguloDoTiro = Mathf.Atan2(DirecaoDoTiro.y, DirecaoDoTiro.x) * Mathf.Rad2Deg;
@@ -49,9 +51,11 @@ public class EstadoBossBruna : MonoBehaviour
 
     void UpdateEstado1()
     {
+        
         MirarNoPlayer();
         if (TempoAtualDoTiro>=TempoParaAtirar)
         {
+            TiroDoBoss.Play();
             TempoAtualDoTiro = 0;
             Instantiate(Tiro, FirePoint.position, Quaternion.identity);
         }
