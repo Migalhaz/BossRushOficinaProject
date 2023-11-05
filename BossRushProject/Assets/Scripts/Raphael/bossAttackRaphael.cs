@@ -10,7 +10,8 @@ public class bossAttackRaphael : MonoBehaviour
     private bossHealthRaphael bossHealthRaphael;
     public GameObject bullet;
     public Animator anim;
-    public Transform firePoint;
+    private Transform firePoint;
+    private AudioSource audio;
     
 
     [Header("Configurações Estado 1")]
@@ -36,6 +37,7 @@ public class bossAttackRaphael : MonoBehaviour
         bossHealthRaphael.canTakeDamage = true;
         anim = GetComponent<Animator>();
         firePoint = aim.GetChild(0);
+        audio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -77,6 +79,7 @@ public class bossAttackRaphael : MonoBehaviour
         if (TimerToShoot())
         {
             Shoot();
+            anim.SetBool("isAttacking", true);
             currentTimerToAttack = timerToAttack2State;
         }
 
@@ -99,8 +102,8 @@ public class bossAttackRaphael : MonoBehaviour
     public void Shoot()
     {
         Instantiate(bullet, firePoint.position, aim.rotation);
+        audio.Play();
 
-        
     }
 
     
