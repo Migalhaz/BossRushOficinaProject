@@ -11,6 +11,7 @@ public class PlayerAim : MonoBehaviour
     [SerializeField, Min(1)] float m_fireRateMultiplier;
     float m_currentWeaponFireRate;
     float m_tpWeaponFireRate;
+    [SerializeField] bool m_tpWeaponEnabled;
 
     [Header("Aim Settings")]
     [SerializeField] PlayerInputs m_playerInputs;
@@ -83,7 +84,12 @@ public class PlayerAim : MonoBehaviour
         {
             if (m_tpWeapon is null) return false;
             if (m_tpWeaponFireRate > 0) return false;
-            return true;
+            return m_tpWeaponEnabled;
         }
+    }
+
+    public void EnableTpWeapon(bool _enabled)
+    {
+        m_tpWeaponEnabled = _enabled;
     }
 }
