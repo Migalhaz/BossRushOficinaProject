@@ -10,6 +10,7 @@ public class BalaBruna : MonoBehaviour
     public float TempoDeVida;
     public int DanoDoTiro;
     
+    
     void Start()
     {
         PlayerTransform = PlayerManager.Instance.transform;
