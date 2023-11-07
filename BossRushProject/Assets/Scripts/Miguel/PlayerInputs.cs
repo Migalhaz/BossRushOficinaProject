@@ -6,8 +6,10 @@ using UnityEngine.UIElements;
 
 public class PlayerInputs : MonoBehaviour
 {
-    [Header("Components")]
-    Camera m_mainCamera;
+    Camera m_mainCamera
+    {
+        get { return Camera.main; }
+    }
 
     [Header("Input Actions")]
     [SerializeField] InputAction m_rollInput = new(InputType.GetKeyDown, KeyCode.Space);
@@ -21,11 +23,6 @@ public class PlayerInputs : MonoBehaviour
     public Vector2 m_MoveDir => m_moveDir;
     public Vector2 m_MousePosition => Input.mousePosition;
     #endregion
-    private void Start()
-    {
-        m_mainCamera = PlayerManager.Instance.m_MainCamera;
-    }
-
     private void Update()
     {
         SetMoveDir();

@@ -15,6 +15,6 @@ MonoBehaviour:
   m_bulletSpeed: 10
   m_bulletDamage: 1
   m_bulletLifeTime: 5
-  m_bulletSprite: {fileID: 21300000, guid: fd098fb4cf57bad419701c802e442b7e, type: 3}
+  m_bulletSprite: {fileID: 21300000, guid: 21cf7ac82f4299147bd9712f63f1df5d, type: 3}
   m_bulletPrefab: {fileID: 5341519084699240339, guid: 634fd240d55115d45bf2fab2c0db6808, type: 3}
   m_fireRate: 0.65

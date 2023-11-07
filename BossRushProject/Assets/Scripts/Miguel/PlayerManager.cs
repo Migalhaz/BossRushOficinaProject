@@ -9,8 +9,6 @@ public class PlayerManager : Singleton<PlayerManager>
     [SerializeField] PlayerInputs m_playerInputs;
     [SerializeField] PlayerLifeSystem m_playerLifeSystem;
     [SerializeField] Shield m_playerShield;
-
-    public Camera m_MainCamera => MigalhaSystem.Extensions.MigalhazHelper.m_MainCamera;
     public PlayerMove m_PlayerMove => m_playerMove;
     public PlayerInputs m_PlayerInputs => m_playerInputs;
     public PlayerAim m_PlayerAim => m_playerAim;

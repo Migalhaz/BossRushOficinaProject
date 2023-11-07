@@ -44,6 +44,11 @@ public class Shield : MonoBehaviour
         m_shieldSpriteRenderer.enabled = value;
     }
 
+    public void HideShield()
+    {
+        m_shieldSpriteRenderer.enabled = false;
+    }
+
     void SetupShield(bool active)
     {
         SetShieldActive(active);

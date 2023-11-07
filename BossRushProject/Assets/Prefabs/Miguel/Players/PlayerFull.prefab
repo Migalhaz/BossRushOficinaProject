@@ -212,9 +212,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a62e7b5f7f820654bbd60059b7d31d87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_currentWeapon: {fileID: 11400000, guid: 9df6f3368eacc224ca075b7f843bbb5a, type: 2}
+  m_currentWeapon: {fileID: 11400000, guid: 2f438e190e295a54a865a8ef46d22b50, type: 2}
   m_tpWeapon: {fileID: 11400000, guid: 3cc9056055901e140be1ba08235c90e4, type: 2}
   m_fireRateMultiplier: 1
+  m_tpWeaponEnabled: 1
   m_playerInputs: {fileID: 939162522103710519}
   m_aim: {fileID: 939162522546293354}
   m_firepoint: {fileID: 939162522231564199}
@@ -450,7 +451,7 @@ GameObject:
   m_Component:
   - component: {fileID: 939162522605405342}
   m_Layer: 0
-  m_Name: PlayerPrefab
+  m_Name: PlayerFull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

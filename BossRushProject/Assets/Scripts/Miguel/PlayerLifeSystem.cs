@@ -15,6 +15,14 @@ public class PlayerLifeSystem : GenericLifeSystem, IDamage
     {
         m_playerShield ??= GetComponent<Shield>();
     }
+    void Update()
+    {
+        if (!m_playerShield.enabled)
+        {
+            m_playerShield.HideShield();
+        }
+        
+    }
 
     public void Damage(float damage)
     {
@@ -40,6 +48,7 @@ public class PlayerLifeSystem : GenericLifeSystem, IDamage
             {
                 return m_playerShield.m_Active;
             }
+            m_playerShield.HideShield();
             return false;
         }
 
