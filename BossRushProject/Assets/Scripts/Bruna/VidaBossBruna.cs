@@ -6,12 +6,12 @@ using UnityEngine.UI;
 public class VidaBossBruna : MonoBehaviour, IDie
 {
     //public AudioSource Morrendo;
-    //public LevelManager levelManager;
     public float VidaAtual;
 
     private float VidaMaxima;
     public Image BarradevidadoBoss;
-
+    public LevelManager levelManager;
+        
     public EstadoBossBruna EstadoDoBoss;
     // Start is called before the first frame update
     void Start()
@@ -43,5 +43,6 @@ public class VidaBossBruna : MonoBehaviour, IDie
     public void Death()
     {
         Destroy(gameObject);
+        levelManager.LoadNextScene();
     }
 }
