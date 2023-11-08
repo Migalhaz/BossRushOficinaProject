@@ -101,7 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   VelocidadeDaBala: 3
   TempoDeVida: 4
-  DanoDoTiro: 2
+  DanoDoTiro: 1
 --- !u!50 &6286700570055701811
 Rigidbody2D:
   serializedVersion: 4
