@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class bossHealthRaphael : MonoBehaviour, IDie
 {
@@ -9,6 +10,9 @@ public class bossHealthRaphael : MonoBehaviour, IDie
     public bool canTakeDamage;
     public bossAttackRaphael attackBoss;
     private float maxHealth;
+    public LevelManager levelManager;
+
+    public Image bossHealthBar;
 
     public void Damage(float damage)
     {
@@ -24,11 +28,14 @@ public class bossHealthRaphael : MonoBehaviour, IDie
             {
                 Death();
             }
+            
         }
+        bossHealthBar.fillAmount = health / maxHealth;
     }
 
     public void Death()
     {
+        levelManager.LoadNextScene();
         Destroy(gameObject);
     }
 

@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/BossBruna.unity
     guid: 6aa6a64c3bb25994f9c349e42e7b9155
   - enabled: 1
-    path: Assets/Scenes/teste_raphael.unity
+    path: Assets/Scenes/bossRaphael.unity
     guid: bb3358df7eb747a4cb78dc8b44705bee
   - enabled: 1
     path: Assets/Scenes/scene_Gabriela.unity
