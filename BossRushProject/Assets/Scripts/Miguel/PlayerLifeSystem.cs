@@ -60,6 +60,7 @@ public class PlayerLifeSystem : GenericLifeSystem, IDamage
 
     public void Death()
     {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
         OnDie?.Invoke();
     }
 }
