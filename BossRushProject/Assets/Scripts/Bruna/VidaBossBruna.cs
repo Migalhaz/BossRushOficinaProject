@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class VidaBossBruna : MonoBehaviour, IDie
 {
     //public AudioSource Morrendo;
+    //public LevelManager levelManager;
     public float VidaAtual;
 
     private float VidaMaxima;
