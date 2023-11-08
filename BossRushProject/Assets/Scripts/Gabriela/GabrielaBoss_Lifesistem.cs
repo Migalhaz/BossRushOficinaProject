@@ -5,7 +5,7 @@ using UnityEngine;
 public class GabrielaBoss_Lifesistem : MonoBehaviour, IDie
 {
     public Gabriela_Estados EstadosBoss;
-    
+    public LevelManager levelManager;
     
     public float VidaAtual;
 
@@ -38,6 +38,7 @@ public class GabrielaBoss_Lifesistem : MonoBehaviour, IDie
 
     public void Death()
     {
+        levelManager.LoadNextScene();
         Destroy(gameObject);
     }
 }
