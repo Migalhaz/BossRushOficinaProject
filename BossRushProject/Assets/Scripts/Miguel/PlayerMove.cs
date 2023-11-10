@@ -8,6 +8,7 @@ public class PlayerMove : MonoBehaviour
 {
     [SerializeField] PlayerInputs m_playerInputs;
     [SerializeField] Rigidbody2D m_rig;
+    [SerializeField] PlayerSound m_playerSound;
     [SerializeField, Min(0)] float m_moveSpeed;
     [SerializeField, Min(0)] float m_rollTimer;
     [SerializeField, Min(0)] float m_rollDuration;
@@ -52,6 +53,7 @@ public class PlayerMove : MonoBehaviour
         if (m_currentRollTimer > 0) return;
         StartCoroutine(RollDuration());
         ResetDashTimer();
+        m_playerSound.PlayDashSound();
         m_rig.AddForce(m_playerInputs.m_MoveDir * m_rollForce, ForceMode2D.Impulse);
     }
 
